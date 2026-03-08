@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Men's Collection — Elite Drape</title>
+    <meta name="description"
+        content="Elite Drape Men's Collection — premium suits, smart casuals, and formal wear for the discerning gentleman." />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        :root {
+            --accent: #9a9cc9;
+        }
+
+        .section-tag,
+        .feature-tag,
+        .page-hero-breadcrumb,
+        .product-badge,
+        .product-price {
+            color: var(--accent) !important;
+        }
+
+        .product-badge {
+            background: var(--accent) !important;
+            color: #fff !important;
+        }
+
+        .divider {
+            background: var(--accent) !important;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+            background: rgba(154, 156, 201, 0.08);
+        }
+
+        .btn-primary {
+            background: var(--accent) !important;
+        }
+
+        .btn-primary:hover {
+            background: #b8badf !important;
+        }
+
+        .nav-cta {
+            color: var(--clr-gold) !important;
+            border-color: var(--clr-gold) !important;
+        }
+
+        .nav-links a.active {
+            color: var(--accent);
+        }
+
+        .nav-links a.active::after {
+            background: var(--accent);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="loader">
+        <div class="loader-logo"><em>Elite</em> Drape</div>
+        <div class="loader-bar-wrap">
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+    <div class="page-transition"></div>
+    <div class="cursor"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar scrolled">
+        <a href="index.html" class="nav-logo"><em>Elite</em> Drape</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="men.html" class="active">Men</a></li>
+            <li><a href="girls.html">Girls</a></li>
+            <li><a href="boys.html">Boys</a></li>
+            <li><a href="index.html#newsletter" class="nav-cta">Join Us</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="page-hero-bg" style="background-image: url('images/hero_men_1772987524815.png');"></div>
+        <div class="page-hero-overlay"></div>
+        <div class="container">
+            <div class="page-hero-content">
+                <p class="page-hero-breadcrumb">✦ For Him · Men's Collection</p>
+                <h1 class="page-hero-title">Dressed for<br><em>Greatness</em></h1>
+                <p class="page-hero-subtitle">Premium menswear that commands attention — from boardroom to black-tie.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Men's Wear</span>
+                <h2 class="section-title">The <em>Gentleman's</em> Edit</h2>
+                <p class="section-desc">Sharp silhouettes, premium fabrics, and timeless cuts — engineered for the
+                    modern man.</p>
+                <div class="divider"></div>
+            </div>
+
+            <div class="filter-bar reveal">
+                <span class="filter-label">Filter:</span>
+                <button class="filter-btn active" data-filter="all">All Styles</button>
+                <button class="filter-btn" data-filter="formal">Formal</button>
+                <button class="filter-btn" data-filter="casual">Smart Casual</button>
+                <button class="filter-btn" data-filter="ethnic">Ethnic</button>
+                <button class="filter-btn" data-filter="party">Party</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card reveal reveal-delay-1" data-category="formal">
+                    <div class="product-img-wrap">
+                        <img src="images/hero_men_1772987524815.png" alt="Navy Suit" />
+                        <span class="product-badge">Formal</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Navy Heritage Suit</h3>
+                        <p class="product-meta">Deep Navy · S–XXXL</p>
+                        <p class="product-price">₹8,999</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-2" data-category="casual">
+                    <div class="product-img-wrap">
+                        <img src="images/products_men_1772987593046.png" alt="Smart Casual" />
+                        <span class="product-badge">Casual</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Urban Chinos Set</h3>
+                        <p class="product-meta">Stone Grey · S–XL</p>
+                        <p class="product-price">₹3,499</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-3" data-category="party">
+                    <div class="product-img-wrap">
+                        <img src="images/hero_men_1772987524815.png" alt="Black Tuxedo" />
+                        <span class="product-badge">Party</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Midnight Tuxedo</h3>
+                        <p class="product-meta">Jet Black · M–XXL</p>
+                        <p class="product-price">₹11,999</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-4" data-category="ethnic">
+                    <div class="product-img-wrap">
+                        <img src="images/products_men_1772987593046.png" alt="Sherwani" />
+                        <span class="product-badge">Ethnic</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Royal Sherwani Set</h3>
+                        <p class="product-meta">Ivory with Gold Zari · Custom</p>
+                        <p class="product-price">₹16,999</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-1" data-category="casual">
+                    <div class="product-img-wrap">
+                        <img src="images/products_men_1772987593046.png" alt="Linen Shirt" />
+                        <span class="product-badge">Casual</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Premium Linen Shirt</h3>
+                        <p class="product-meta">Cream · S–XXL</p>
+                        <p class="product-price">₹1,799</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-2" data-category="formal">
+                    <div class="product-img-wrap">
+                        <img src="images/hero_men_1772987524815.png" alt="Charcoal Suit" />
+                        <span class="product-badge">Formal</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Charcoal Business Suit</h3>
+                        <p class="product-meta">Charcoal Grey · S–XXXL</p>
+                        <p class="product-price">₹7,499</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-3" data-category="ethnic">
+                    <div class="product-img-wrap">
+                        <img src="images/products_men_1772987593046.png" alt="Kurta Set" />
+                        <span class="product-badge">Ethnic</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Silk Kurta Set</h3>
+                        <p class="product-meta">Peacock Blue · M–XXL</p>
+                        <p class="product-price">₹4,299</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-4" data-category="party">
+                    <div class="product-img-wrap">
+                        <img src="images/hero_men_1772987524815.png" alt="Blazer" />
+                        <span class="product-badge">Party</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Velvet Party Blazer</h3>
+                        <p class="product-meta">Burgundy · S–XL</p>
+                        <p class="product-price">₹5,799</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURE SECTION -->
+    <section class="section" style="background: var(--clr-surface);">
+        <div class="container">
+            <div class="feature-section">
+                <div class="feature-img-wrap reveal">
+                    <img src="images/products_men_1772987593046.png" alt="Men's Craft" />
+                    <div class="feature-img-frame"></div>
+                </div>
+                <div class="feature-content reveal reveal-delay-2">
+                    <p class="feature-tag">✦ Master Tailoring</p>
+                    <h2 class="feature-title">The Art of the<br><em>Perfect Fit</em></h2>
+                    <p class="feature-desc">Our master tailors with decades of experience craft each garment to sit
+                        perfectly on your frame. We combine traditional techniques with modern precision to deliver
+                        menswear that truly makes a statement.</p>
+                    <div class="feature-stats">
+                        <div>
+                            <div class="stat-num"><span class="count-up" data-count="36" data-suffix="+">0+</span></div>
+                            <div class="stat-label">Men's Styles</div>
+                        </div>
+                        <div>
+                            <div class="stat-num"><span class="count-up" data-count="5" data-suffix="★">0★</span></div>
+                            <div class="stat-label">Avg Rating</div>
+                        </div>
+                    </div>
+                    <a href="index.html#categories" class="btn-primary">Explore All</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="nav-logo"><em>Elite</em> Drape</span>
+                    <p class="footer-about">Premium fashion boutique crafting elegance for every age.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Collections</h4>
+                    <ul>
+                        <li><a href="women.html">Women</a></li>
+                        <li><a href="men.html">Men</a></li>
+                        <li><a href="girls.html">Girls</a></li>
+                        <li><a href="boys.html">Boys</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Elite Drape. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#">𝐈</a><a href="#">𝐅</a><a href="#">𝐏</a><a href="#">𝐗</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

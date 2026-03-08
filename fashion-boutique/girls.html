@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Girls' Collection — Elite Drape</title>
+    <meta name="description"
+        content="Elite Drape Girls' Collection — princess dresses, party frocks, casual wear and more for little girls." />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        :root {
+            --accent: #e88fa0;
+        }
+
+        .section-tag,
+        .feature-tag,
+        .page-hero-breadcrumb,
+        .product-badge,
+        .product-price {
+            color: var(--accent) !important;
+        }
+
+        .product-badge {
+            background: var(--accent) !important;
+            color: #fff !important;
+        }
+
+        .divider {
+            background: var(--accent) !important;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+            background: rgba(232, 143, 160, 0.08);
+        }
+
+        .btn-primary {
+            background: var(--accent) !important;
+        }
+
+        .btn-primary:hover {
+            background: #f0b0be !important;
+            box-shadow: 0 15px 40px rgba(232, 143, 160, 0.4) !important;
+        }
+
+        .nav-cta {
+            color: var(--clr-gold) !important;
+            border-color: var(--clr-gold) !important;
+        }
+
+        .hero-label,
+        .section-tag {
+            color: var(--accent);
+        }
+
+        .nav-links a.active {
+            color: var(--accent);
+        }
+
+        .nav-links a.active::after {
+            background: var(--accent);
+        }
+
+        /* Sparkle background for girls page */
+        body {
+            background-image: radial-gradient(circle at 20% 50%, rgba(232, 143, 160, 0.03) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(232, 143, 160, 0.03) 0%, transparent 50%);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="loader">
+        <div class="loader-logo"><em>Elite</em> Drape</div>
+        <div class="loader-bar-wrap">
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+    <div class="page-transition"></div>
+    <div class="cursor"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar scrolled">
+        <a href="index.html" class="nav-logo"><em>Elite</em> Drape</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="girls.html" class="active">Girls</a></li>
+            <li><a href="boys.html">Boys</a></li>
+            <li><a href="index.html#newsletter" class="nav-cta">Join Us</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="page-hero-bg" style="background-image: url('images/hero_girls_1772987487366.png');"></div>
+        <div class="page-hero-overlay"></div>
+        <div class="container">
+            <div class="page-hero-content">
+                <p class="page-hero-breadcrumb">✦ For Little Her · Girls' Collection</p>
+                <h1 class="page-hero-title">Every Girl's<br><em>Dream</em> Wardrobe</h1>
+                <p class="page-hero-subtitle">Magical dresses and adorable frocks that let every little girl shine like
+                    the princess she is.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Girls' Wear</span>
+                <h2 class="section-title">A World of <em>Sparkle</em> & Style</h2>
+                <p class="section-desc">From birthday parties to school events — magical outfits for every little
+                    occasion.</p>
+                <div class="divider"></div>
+            </div>
+
+            <div class="filter-bar reveal">
+                <span class="filter-label">Filter:</span>
+                <button class="filter-btn active" data-filter="all">All Styles</button>
+                <button class="filter-btn" data-filter="party">Party Wear</button>
+                <button class="filter-btn" data-filter="casual">Casual</button>
+                <button class="filter-btn" data-filter="princess">Princess</button>
+                <button class="filter-btn" data-filter="ethnic">Ethnic</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card reveal reveal-delay-1" data-category="princess">
+                    <div class="product-img-wrap">
+                        <img src="images/hero_girls_1772987487366.png" alt="Princess Gown" />
+                        <span class="product-badge">Princess</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Cinderella Gown</h3>
+                        <p class="product-meta">Sky Blue Tulle · 2–12 yrs</p>
+                        <p class="product-price">₹2,499</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-2" data-category="party">
+                    <div class="product-img-wrap">
+                        <img src="images/products_girls_1772987574149.png" alt="Party Frock" />
+                        <span class="product-badge">Party</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Rosie Party Frock</h3>
+                        <p class="product-meta">Candy Pink · 3–10 yrs</p>
+                        <p class="product-price">₹1,299</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-3" data-category="casual">
+                    <div class="product-img-wrap">
+                        <img src="images/products_girls_1772987574149.png" alt="Casual Dress" />
+                        <span class="product-badge">Casual</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Sunny Floral Dress</h3>
+                        <p class="product-meta">Yellow & White · 2–12 yrs</p>
+                        <p class="product-price">₹899</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-4" data-category="ethnic">
+                    <div class="product-img-wrap">
+                        <img src="images/hero_girls_1772987487366.png" alt="Ethnic Wear" />
+                        <span class="product-badge">Ethnic</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Lehenga Choli Set</h3>
+                        <p class="product-meta">Magenta & Gold · 3–12 yrs</p>
+                        <p class="product-price">₹1,799</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-1" data-category="princess">
+                    <div class="product-img-wrap">
+                        <img src="images/products_girls_1772987574149.png" alt="Fairy Dress" />
+                        <span class="product-badge">Princess</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Fairy Dust Gown</h3>
+                        <p class="product-meta">Lavender Glitter · 2–10 yrs</p>
+                        <p class="product-price">₹1,999</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-2" data-category="party">
+                    <div class="product-img-wrap">
+                        <img src="images/hero_girls_1772987487366.png" alt="Birthday Dress" />
+                        <span class="product-badge">Party</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Birthday Star Dress</h3>
+                        <p class="product-meta">Hot Pink · 2–14 yrs</p>
+                        <p class="product-price">₹1,499</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-3" data-category="casual">
+                    <div class="product-img-wrap">
+                        <img src="images/products_girls_1772987574149.png" alt="School Dress" />
+                        <span class="product-badge">Casual</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Daisy School Dress</h3>
+                        <p class="product-meta">White with Red Polka · 3–12 yrs</p>
+                        <p class="product-price">₹699</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-4" data-category="ethnic">
+                    <div class="product-img-wrap">
+                        <img src="images/hero_girls_1772987487366.png" alt="Salwar" />
+                        <span class="product-badge">Ethnic</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Mini Salwar Kameez</h3>
+                        <p class="product-meta">Teal & Gold Embroidery · 4–12 yrs</p>
+                        <p class="product-price">₹1,299</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURE SECTION -->
+    <section class="section" style="background: var(--clr-surface);">
+        <div class="container">
+            <div class="feature-section reverse">
+                <div class="feature-img-wrap reveal reveal-delay-2">
+                    <img src="images/products_girls_1772987574149.png" alt="Girls' Fashion" />
+                    <div class="feature-img-frame"></div>
+                </div>
+                <div class="feature-content reveal">
+                    <p class="feature-tag">✦ Made for Magic</p>
+                    <h2 class="feature-title">Little Girls<br>Deserve <em>Only</em> the Best</h2>
+                    <p class="feature-desc">Every fabric we use for our children's line is hypoallergenic, tested, and
+                        soft on sensitive skin. We prioritize comfort as much as style — because the best dress is one
+                        they never want to take off.</p>
+                    <div class="feature-stats">
+                        <div>
+                            <div class="stat-num"><span class="count-up" data-count="52" data-suffix="+">0+</span></div>
+                            <div class="stat-label">Girls' Styles</div>
+                        </div>
+                        <div>
+                            <div class="stat-num"><span class="count-up" data-count="2" data-suffix="–14">2</span></div>
+                            <div class="stat-label">Age Range (yrs)</div>
+                        </div>
+                    </div>
+                    <a href="index.html#categories" class="btn-primary">All Collections</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="nav-logo"><em>Elite</em> Drape</span>
+                    <p class="footer-about">Premium fashion boutique crafting elegance for every age.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Collections</h4>
+                    <ul>
+                        <li><a href="women.html">Women</a></li>
+                        <li><a href="men.html">Men</a></li>
+                        <li><a href="girls.html">Girls</a></li>
+                        <li><a href="boys.html">Boys</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Elite Drape. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#">𝐈</a><a href="#">𝐅</a><a href="#">𝐏</a><a href="#">𝐗</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

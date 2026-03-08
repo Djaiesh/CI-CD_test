@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boys' Collection — Elite Drape</title>
+    <meta name="description"
+        content="Elite Drape Boys' Collection — blazers, smart casuals, ethnic wear, and more for stylish boys." />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        :root {
+            --accent: #6ea8c9;
+        }
+
+        .section-tag,
+        .feature-tag,
+        .page-hero-breadcrumb,
+        .product-badge,
+        .product-price {
+            color: var(--accent) !important;
+        }
+
+        .product-badge {
+            background: var(--accent) !important;
+            color: #fff !important;
+        }
+
+        .divider {
+            background: var(--accent) !important;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+            background: rgba(110, 168, 201, 0.08);
+        }
+
+        .btn-primary {
+            background: var(--accent) !important;
+        }
+
+        .btn-primary:hover {
+            background: #90c0d8 !important;
+            box-shadow: 0 15px 40px rgba(110, 168, 201, 0.4) !important;
+        }
+
+        .nav-cta {
+            color: var(--clr-gold) !important;
+            border-color: var(--clr-gold) !important;
+        }
+
+        .nav-links a.active {
+            color: var(--accent);
+        }
+
+        .nav-links a.active::after {
+            background: var(--accent);
+        }
+
+        body {
+            background-image: radial-gradient(circle at 10% 70%, rgba(110, 168, 201, 0.03) 0%, transparent 50%);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="loader">
+        <div class="loader-logo"><em>Elite</em> Drape</div>
+        <div class="loader-bar-wrap">
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+    <div class="page-transition"></div>
+    <div class="cursor"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar scrolled">
+        <a href="index.html" class="nav-logo"><em>Elite</em> Drape</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="girls.html">Girls</a></li>
+            <li><a href="boys.html" class="active">Boys</a></li>
+            <li><a href="index.html#newsletter" class="nav-cta">Join Us</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="page-hero-bg" style="background-image: url('images/hero_boys_1772987503543.png');"></div>
+        <div class="page-hero-overlay"></div>
+        <div class="container">
+            <div class="page-hero-content">
+                <p class="page-hero-breadcrumb">✦ For Little Him · Boys' Collection</p>
+                <h1 class="page-hero-title">Born to Be<br><em>Dapper</em></h1>
+                <p class="page-hero-subtitle">Smart, fun and comfortable outfits that keep up with every adventure —
+                    dressed for greatness from day one.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Boys' Wear</span>
+                <h2 class="section-title">The <em>Little</em> Gentleman's Edit</h2>
+                <p class="section-desc">Smart casuals, dapper formals, and cultural classics — for every occasion and
+                    every adventure.</p>
+                <div class="divider"></div>
+            </div>
+
+            <div class="filter-bar reveal">
+                <span class="filter-label">Filter:</span>
+                <button class="filter-btn active" data-filter="all">All Styles</button>
+                <button class="filter-btn" data-filter="formal">Formal</button>
+                <button class="filter-btn" data-filter="casual">Casual</button>
+                <button class="filter-btn" data-filter="ethnic">Ethnic</button>
+                <button class="filter-btn" data-filter="party">Party</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card reveal reveal-delay-1" data-category="formal">
+                    <div class="product-img-wrap">
+                        <img src="images/hero_boys_1772987503543.png" alt="Blazer Set" />
+                        <span class="product-badge">Formal</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Navy Junior Blazer</h3>
+                        <p class="product-meta">Deep Navy · 3–14 yrs</p>
+                        <p class="product-price">₹2,299</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-2" data-category="casual">
+                    <div class="product-img-wrap">
+                        <img src="images/products_boys_1772987613464.png" alt="Polo Set" />
+                        <span class="product-badge">Casual</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Stripe Polo & Chinos</h3>
+                        <p class="product-meta">Royal Blue · 2–12 yrs</p>
+                        <p class="product-price">₹1,199</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-3" data-category="party">
+                    <div class="product-img-wrap">
+                        <img src="images/products_boys_1772987613464.png" alt="Party Wear" />
+                        <span class="product-badge">Party</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Velvet Party Suit</h3>
+                        <p class="product-meta">Midnight Purple · 4–14 yrs</p>
+                        <p class="product-price">₹2,799</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-4" data-category="ethnic">
+                    <div class="product-img-wrap">
+                        <img src="images/hero_boys_1772987503543.png" alt="Sherwani" />
+                        <span class="product-badge">Ethnic</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Mini Sherwani Set</h3>
+                        <p class="product-meta">Ivory & Gold · 2–12 yrs</p>
+                        <p class="product-price">₹3,499</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-1" data-category="casual">
+                    <div class="product-img-wrap">
+                        <img src="images/products_boys_1772987613464.png" alt="Denim Set" />
+                        <span class="product-badge">Casual</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Cool Denim Jacket Set</h3>
+                        <p class="product-meta">Medium Wash · 4–14 yrs</p>
+                        <p class="product-price">₹1,499</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-2" data-category="formal">
+                    <div class="product-img-wrap">
+                        <img src="images/hero_boys_1772987503543.png" alt="Suit" />
+                        <span class="product-badge">Formal</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Grey Wool Suit</h3>
+                        <p class="product-meta">Charcoal Grey · 5–14 yrs</p>
+                        <p class="product-price">₹3,199</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-3" data-category="ethnic">
+                    <div class="product-img-wrap">
+                        <img src="images/products_boys_1772987613464.png" alt="Kurta" />
+                        <span class="product-badge">Ethnic</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Festive Kurta Pajama</h3>
+                        <p class="product-meta">Saffron & White · 2–12 yrs</p>
+                        <p class="product-price">₹1,099</p>
+                    </div>
+                </div>
+                <div class="product-card reveal reveal-delay-4" data-category="party">
+                    <div class="product-img-wrap">
+                        <img src="images/hero_boys_1772987503543.png" alt="Tuxedo" />
+                        <span class="product-badge">Party</span>
+                        <div class="product-overlay">
+                            <div class="product-overlay-btn">View Details</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Little Tuxedo Set</h3>
+                        <p class="product-meta">Classic Black & White · 3–12 yrs</p>
+                        <p class="product-price">₹2,499</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURE SECTION -->
+    <section class="section" style="background: var(--clr-surface);">
+        <div class="container">
+            <div class="feature-section">
+                <div class="feature-img-wrap reveal">
+                    <img src="images/products_boys_1772987613464.png" alt="Boys' Craft" />
+                    <div class="feature-img-frame"></div>
+                </div>
+                <div class="feature-content reveal reveal-delay-2">
+                    <p class="feature-tag">✦ Comfort First</p>
+                    <h2 class="feature-title">Comfort Meets<br><em>Cool</em> Style</h2>
+                    <p class="feature-desc">Boys are adventurers at heart. Our designs are engineered to survive the
+                        playground and still look sharp at dinner. Durable stitching, breathable fabrics, and colours
+                        that stay vibrant — wash after wash.</p>
+                    <div class="feature-stats">
+                        <div>
+                            <div class="stat-num"><span class="count-up" data-count="30" data-suffix="+">0+</span></div>
+                            <div class="stat-label">Boys' Styles</div>
+                        </div>
+                        <div>
+                            <div class="stat-num"><span class="count-up" data-count="2" data-suffix="–14">2</span></div>
+                            <div class="stat-label">Age Range (yrs)</div>
+                        </div>
+                    </div>
+                    <a href="index.html#categories" class="btn-primary">All Collections</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="nav-logo"><em>Elite</em> Drape</span>
+                    <p class="footer-about">Premium fashion boutique crafting elegance for every age.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Collections</h4>
+                    <ul>
+                        <li><a href="women.html">Women</a></li>
+                        <li><a href="men.html">Men</a></li>
+                        <li><a href="girls.html">Girls</a></li>
+                        <li><a href="boys.html">Boys</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Elite Drape. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#">𝐈</a><a href="#">𝐅</a><a href="#">𝐏</a><a href="#">𝐗</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
